@@ -1,4 +1,6 @@
-export const comments = [
+import { CommentProps } from "./types";
+
+export const comments:CommentProps[] = [
   {
     username: "Lisa",
     userImagePath: "/profileImages/lisa.jpg",
